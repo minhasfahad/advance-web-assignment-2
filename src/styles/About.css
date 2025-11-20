@@ -1,0 +1,78 @@
+.about-us-page {
+    padding: 80px 200px;
+}
+
+.about-us-page h2 {
+    letter-spacing: 0.5rem;
+}
+
+.hr-line {
+    all: unset;
+    height: 7px;
+    background-color: rgb(255, 0, 0);
+    margin: 20px auto;
+    display: block;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listitems {
+    list-style: none;
+    color: red;
+}
+
+.about-us-page .list .listitems span {
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.752);
+    text-transform: lowercase;
+    letter-spacing: 0.3rem;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin: 40px 0px;
+    align-items: center;
+}
+
+.numbers h3 {
+    font-weight: bolder;
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.numbers p {
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.content-and-link {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-us-link {
+    font-size: 2rem;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 70px;
+    border: 4px solid white;
+}
